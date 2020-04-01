@@ -3,15 +3,19 @@ This repository contains the files and appropriate explanation on how to replica
 
 ## Repository Contents
 
-The repository is divided in ...
+The repository is divided in 4 files: 
 
-## Recognition algorithm as a blackbox
+ - sensorLog.txt is the data collected from the sensorfusion app
+ 
+ - pre-process.py contains the algorithm to shape the data accordingly to the algorithm input
 
-Input:
-Output:
+ - output.txt is the data in which the recognition is performed
+
+ - algorithm is the activity recognition algorithm
 
 ## How we detect activity
 
+We detect activity by manually analyzing the outcome from the algorithm. If the y axis stays at 1, it is most likely that the phone user was standing still. If it bounces frequently between 1 and 0, it is mos likely that the phone user is walking. And if it is 0, it is most likely that the phone user is running.
 
 ## Authors
 * Johan Karlsson
