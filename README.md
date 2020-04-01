@@ -1,16 +1,22 @@
 # Mobile based activity recognition
 This repository contains the files and appropriate explanation on how to replicate our results for recognizing whether the owner of an Android mobile phone is stand still, walking or running.
 
+## Dependencies
+
+You will need:
+
+- Python 3+
+- Matlab 2019+
+
+to execute the files.
+
 ## Repository Contents
 
 The repository is divided in 4 files: 
 
  - sensorLog.txt is the data collected from the sensorfusion app
- 
  - pre-process.py contains the algorithm to shape the data accordingly to the algorithm input
-
  - output.txt is the data in which the recognition is performed
-
  - algorithm is the activity recognition algorithm
 
 ## How we detect activity
